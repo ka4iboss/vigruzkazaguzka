@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75b1c943-6bb7-4709-ab13-2b4ac1c0dfdf">
+  <producedTypes>
+    <selectionType typeId="52ff69f7-ead9-4348-8e6b-6c53762ca8fe" valueTypeId="b6339012-3cc8-4dc3-9f4d-62d7fb250dba"/>
+    <listType typeId="060de0ae-d0b8-4c40-b4c5-8fb8a9432a33" valueTypeId="26f396df-e735-4841-9949-ac877b574302"/>
+    <managerType typeId="d345c08c-8078-4b42-aaf7-25017a5063e8" valueTypeId="2f83d42b-ee51-46c9-8a19-fd82e50d7831"/>
+    <recordSetType typeId="7206088e-00e6-4312-af05-2748d821c6a5" valueTypeId="0ef24b47-d89f-4582-b89f-1487383e5b66"/>
+    <recordKeyType typeId="4317c3c2-be95-4e3f-a945-529bbe90d8ca" valueTypeId="219322b7-c1aa-4883-9e03-3eb1d3422d35"/>
+    <recordType typeId="40efb39c-7633-4e5e-9fb2-1cb2e2d2b092" valueTypeId="08413a86-22c7-4b1d-abbc-e54f84872c21"/>
+    <recordManagerType typeId="b37a7eee-5887-4da5-8747-c057f202cd27" valueTypeId="122c947f-b818-4301-9005-f012c0fcc957"/>
+  </producedTypes>
+  <name>ТБ_СостоянияЗагрузкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния загрузки объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report distribution states</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние загрузки объекта</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния загрузки объектов</value>
+  </listPresentation>
+  <resources uuid="b9f8ed81-6e2b-48da-84bd-f0e18a06c643">
+    <name>ПоследнийЗапускНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний запуск (начало)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Last run (beginning)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала последнего запуска рассылки отчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The date when the last report distribution starts.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c93c637-12ef-49ac-b8bb-385256fc27d6">
+    <name>ПоследнийЗапускЗавершение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний запуск (завершение)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Last run (end)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата завершения последнего запуска рассылки отчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The date when the last report distribution ends.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="661e7805-f964-4daf-bc07-8e3cb4881510">
+    <name>УспешныйЗапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешный запуск</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Successful start</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начало последнего успешного запуска рассылки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of the last successful report distribution.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2bdf6a6-82e2-4e0b-a46d-b946f4a9dda6">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что рассылка завершена</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the distribution has been completed.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c2d0e15-e8ad-4976-95ed-ed2c7d00099e">
+    <name>СОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>С ошибками</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>With errors</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что рассылка завершена с ошибками</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the report distribution has failed.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ea03694e-645e-4403-8ad7-8c515b0de042">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Session ID</value>
+    </synonym>
+    <comment>Используется для отбора журнала регистрации по номеру сеанса рассылки отчетов. Подробнее см. НомерСеансаИнформационнойБазы в синтакс-помощнике.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер сеанса, в котором выполнялся запуск рассылки (для отбора событий в журнале регистрации)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The ID of the session associated with the distribution. Used to filter events in the Event Log.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4ef9f729-9446-4207-8b4c-057e3aea40ff">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report distribution</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТБ_СценарииЗагрузкиОбъектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value> </value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value> </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

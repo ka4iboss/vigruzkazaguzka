@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa3aa947-c3e1-4616-b8fe-8da61666d8b3" extendedConfigurationObject="a2782760-dd4c-44d2-a785-814d6f610455">
+  <producedTypes>
+    <objectType typeId="5dca1f26-4d6f-4c86-bc1c-2d83b1bded7d" valueTypeId="15c2c613-04e0-4203-b954-4b25073aa24d"/>
+    <refType typeId="1bdb559a-7c44-4ec1-bb15-6c0fcb10863f" valueTypeId="61275eb8-badd-431d-ab1b-478789b114f3"/>
+    <selectionType typeId="9685f6b7-08cf-45c4-8904-ce0867ffe1e6" valueTypeId="326b80d9-749e-4fe3-b119-c87cebe063ba"/>
+    <listType typeId="6f04ff3d-1e28-46d7-a34b-8c3d35990085" valueTypeId="0ab5cbde-ad90-4632-824b-3a9c3d694523"/>
+    <managerType typeId="140cc4d8-c7f9-4876-863e-f20dea0750f7" valueTypeId="f2ba436c-092e-42fa-bca3-ab6a01a4c142"/>
+  </producedTypes>
+  <name>ГруппыПользователей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="3e33c4f4-ddb4-4586-832a-e134e520fb2a" extendedConfigurationObject="6581ac1f-11ef-42b8-9f3b-590bb7546e63">
+    <producedTypes>
+      <objectType typeId="3555c916-b397-46df-9b30-c167a76ef551" valueTypeId="bfa3be37-f297-46d5-af6c-0d1f69797d19"/>
+      <rowType typeId="2cf74dc4-f918-4ddf-a82e-83427e524f9c" valueTypeId="d45e4f50-652e-44b4-a358-f6e684bed72f"/>
+    </producedTypes>
+    <name>Состав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="52e38e74-f885-40ee-b03a-2354f9d58e0c" extendedConfigurationObject="ce952e88-35b7-4506-81ac-d7081e50a650">
+      <name>Пользователь</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Пользователи</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

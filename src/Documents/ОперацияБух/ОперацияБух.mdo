@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03d70f82-058b-457b-a4cc-ebff39918b15" extendedConfigurationObject="310bcfb3-5577-4190-b808-6682f4e49b2c">
+  <producedTypes>
+    <objectType typeId="ece49603-afd2-48b8-bb23-330cd17221bb" valueTypeId="24d3cdea-48e3-4ecd-8c75-e80c41970298"/>
+    <refType typeId="1a88e30f-bfed-4dc7-989a-cda5f3b306a0" valueTypeId="db1027f9-3a28-4443-abd8-cccc68a09307"/>
+    <selectionType typeId="28bff80b-ff00-42f9-8184-bf827c09762c" valueTypeId="0a41b2f8-580d-445c-ad7c-734a3f84f0b3"/>
+    <listType typeId="6d221ab6-ab34-4479-bd40-2f3508e18d71" valueTypeId="8ca0cce3-128e-48cf-a27f-cf41b6146908"/>
+    <managerType typeId="f9a39480-9311-4c90-be98-12f43158e388" valueTypeId="33ca3aba-6e02-4cc4-ae7f-2dd0adf9e648"/>
+  </producedTypes>
+  <name>ОперацияБух</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

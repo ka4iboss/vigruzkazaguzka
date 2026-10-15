@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf390370-84d7-4e97-ada0-8c9f7bd65c2f">
+  <producedTypes>
+    <selectionType typeId="eee035d2-ce7c-461a-be3a-1d5340f904bf" valueTypeId="eb02a370-a3cb-44c6-a244-dd8e55f515ea"/>
+    <listType typeId="ca4680f3-4198-4af7-b419-8ddb27c663c7" valueTypeId="320fc5b8-ff9a-46b0-bc46-bf2c634d3627"/>
+    <managerType typeId="97976ba7-fcf7-4547-976d-a26246d639f0" valueTypeId="e76741c1-b322-437e-ac41-64a4928964e5"/>
+    <recordSetType typeId="eeea865e-6bc9-4dd6-9bcf-bc30f79ca2ae" valueTypeId="5165dee4-d5de-4153-80a7-1302ddab6a26"/>
+    <recordKeyType typeId="80a493b3-15fa-4ccf-abf3-4c01a20d5a70" valueTypeId="bcd4fa3a-16e9-4478-a8ba-c54259e2e9e1"/>
+    <recordType typeId="27dcbefe-6497-49e8-a9de-8c6f6269d01d" valueTypeId="6df84544-5ca0-4dc0-ac2e-6d12f3f85e21"/>
+    <recordManagerType typeId="eab71c3e-4f91-476b-89fc-ab1eb100e6a1" valueTypeId="97cb4516-1c7d-4dc5-8679-3b63ad77dcbd"/>
+  </producedTypes>
+  <name>ТБ_СоответствияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТБ_СоответствияОбъектов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ТБ_СоответствияОбъектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соответствие объекта</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Соответствие объектов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Соответствия объектов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Соответствия объектов</value>
+  </extendedListPresentation>
+  <resources uuid="806d0ad1-d72c-478a-a5d6-3edab0170a1d">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>DocumentRef.ОтчетДавальцу</types>
+      <types>DocumentRef.ВводОстатковВзаиморасчетовПоАренде</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      <types>CatalogRef.ГосударственныеКонтракты</types>
+      <types>CatalogRef.ГруппыДоступа</types>
+      <types>CatalogRef.СтраныМира</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>DocumentRef.СчетФактураПолученный</types>
+      <types>CatalogRef.Валюты</types>
+      <types>DocumentRef.ВозвратТоваровПоставщику</types>
+      <types>DocumentRef.ЗаказМатериаловВПроизводство</types>
+      <types>DocumentRef.ОперацияБух</types>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+      <types>DocumentRef.СписаниеБезналичныхДенежныхСредств</types>
+      <types>DocumentRef.ВводОстатковВзаиморасчетов</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.БанковскиеСчетаОрганизаций</types>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>DocumentRef.ВводОстатковПрочиеРасходы</types>
+      <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
+      <types>DocumentRef.СчетФактураВыданныйАванс</types>
+      <types>DocumentRef.ПервичныйДокумент</types>
+      <types>CatalogRef.Кассы</types>
+      <types>CatalogRef.Организации</types>
+      <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+      <types>DocumentRef.АктВыполненныхРабот</types>
+      <types>DocumentRef.ЗаказДавальца</types>
+      <types>CatalogRef.НомераГТД</types>
+      <types>DocumentRef.ВнутреннееПотребление</types>
+      <types>DocumentRef.ВыработкаСотрудников</types>
+      <types>DocumentRef.ОрдерНаОтражениеНедостачТоваров</types>
+      <types>DocumentRef.КорректировкаПриобретения</types>
+      <types>CatalogRef.ТипыТранспортныхСредств</types>
+      <types>CatalogRef.ЭтапыПроизводства</types>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>DocumentRef.ВводОстатковВнеоборотныхАктивов2_4</types>
+      <types>DocumentRef.СборкаТоваров</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ДоговорыКредитовИДепозитов</types>
+      <types>CatalogRef.РесурсныеСпецификации</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</types>
+      <types>CatalogRef.ГруппыДоступаПартнеров</types>
+      <types>CatalogRef.ВидыРаботСотрудников</types>
+      <types>DocumentRef.ПоступлениеСырьяОтДавальца</types>
+      <types>DocumentRef.ПриобретениеУслугПрочихАктивов</types>
+      <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+      <types>DocumentRef.ОрдерНаОтражениеИзлишковТоваров</types>
+      <types>CatalogRef.КассыККМ</types>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+      <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.РеализацияУслугПрочихАктивов</types>
+      <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+      <types>DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.ПоступлениеБезналичныхДенежныхСредств</types>
+      <types>CatalogRef.СтавкиНДС</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>DocumentRef.СчетФактураПолученныйАванс</types>
+      <types>DocumentRef.ПеремещениеТоваров</types>
+      <types>DocumentRef.ПриходныйОрдерНаТовары</types>
+      <types>CatalogRef.НоменклатураКонтрагентов</types>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.ЭквайринговыеТерминалы</types>
+      <types>DocumentRef.ОрдерНаОтражениеПересортицыТоваров</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>DocumentRef.ВводОстатковПрочихАктивовПассивов</types>
+      <types>DocumentRef.ЭтапПроизводства2_2</types>
+      <types>DocumentRef.ПроизводствоБезЗаказа</types>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+      <types>CatalogRef.СкладскиеПомещения</types>
+      <types>DocumentRef.ПередачаСырьяПереработчику</types>
+      <types>DocumentRef.СписаниеНедостачТоваров</types>
+      <types>DocumentRef.КорректировкаРеализации</types>
+      <types>CatalogRef.ЗоныДоставки</types>
+      <types>DocumentRef.ОперацияПоПлатежнойКарте</types>
+      <types>DocumentRef.ПересчетТоваров</types>
+      <types>DocumentRef.ЗаказНаПроизводство2_2</types>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      <types>CatalogRef.ВидыЦен</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>CatalogRef.Склады</types>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      <types>DocumentRef.ВводОстатковНДСПредъявленного</types>
+      <types>DocumentRef.РаспределениеРасходовБудущихПериодов</types>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>DocumentRef.ПересортицаТоваров</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>DocumentRef.ВводОстатковТоваров</types>
+      <types>DocumentRef.СчетФактураВыданный</types>
+      <types>DocumentRef.РасходныйОрдерНаТовары</types>
+      <types>CatalogRef.СертификатыНоменклатуры</types>
+      <types>DocumentRef.ОтчетКомитенту</types>
+      <types>DocumentRef.ЗаданиеНаПеревозку</types>
+      <types>DocumentRef.ВводОстатковСПодотчетниками</types>
+      <types>DocumentRef.ВводОстатковТМЦВЭксплуатации</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>CatalogRef.ПрочиеРасходы</types>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+      <types>DocumentRef.ПоступлениеДенежныхДокументов</types>
+      <types>DocumentRef.РасходныйКассовыйОрдер</types>
+      <types>DocumentRef.ИсполнительныйЛист</types>
+      <types>DocumentRef.АвансовыйОтчет</types>
+      <types>DocumentRef.НачислениеСписаниеРезервовПоСомнительнымДолгам</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>DocumentRef.ОтчетКомиссионера</types>
+      <types>DocumentRef.ДвижениеПродукцииИМатериалов</types>
+      <types>CatalogRef.СкладскиеЯчейки</types>
+      <types>CatalogRef.ПартииПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ccbdfc2d-2a7a-4c9c-872e-9c15c28e8d21">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТБ_ИсточникиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5c95742-3f7e-4a1e-8bce-6a89cd484802">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="b298326c-cba3-4704-a594-c283d9e3f1bf">
+    <name>ДанныеИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fc12599-313f-45b7-b74c-04eaad971650">
+    <name>ПравилоСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТБ_ПравилаСопоставления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипПравила</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТБ_ТипыПравилСопоставления.EnumValue.СопоставлениеОбъектов</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6d20dfa1-a23b-43fa-9c26-2831abb2b76f">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Уникальный идентификатор объекта во внешней системе</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a8a64931-bba5-435e-a5a0-f159f2074487">
+    <name>ИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>430</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="abf42d11-0fb7-4bad-89e0-f7cbc44107dd">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1fd3a3e-92c3-4ee0-8221-f0cf1d8f2523">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9d6e6e85-feef-4284-9d4f-299aa6b35568">
+    <name>СоответствияОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствия объектов</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

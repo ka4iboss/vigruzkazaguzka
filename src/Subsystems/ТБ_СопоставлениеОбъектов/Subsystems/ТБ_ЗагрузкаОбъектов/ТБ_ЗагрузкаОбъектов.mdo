@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca742b0c-6b1f-460e-916f-dc8eef7c6836">
+  <name>ТБ_ЗагрузкаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ТБ_ЗагрузкаОбъектов</content>
+  <content>Catalog.ТБ_НастройкиЗагрузкиОбъектов</content>
+  <content>DataProcessor.ТБ_АнализЗагруженныхДанных</content>
+  <content>InformationRegister.ТБ_ЗагруженныеДанныеИсточника</content>
+  <content>Catalog.ТБ_СценарииЗагрузкиОбъектов</content>
+  <content>InformationRegister.ТБ_ДоступностьНастроекЗагрузкиОбъектов</content>
+  <parentSubsystem>Subsystem.ТБ_СопоставлениеОбъектов</parentSubsystem>
+</mdclass:Subsystem>

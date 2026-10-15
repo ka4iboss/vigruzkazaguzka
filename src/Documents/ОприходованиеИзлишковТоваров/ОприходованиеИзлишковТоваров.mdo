@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6747a96f-f966-4677-827e-3c8de990fa9e" extendedConfigurationObject="318716f3-e4be-4c34-873a-a9fafa785399">
+  <producedTypes>
+    <objectType typeId="c5f09147-a6be-4a4d-8cec-01c746eb2fa3" valueTypeId="0d27761a-45b9-48d7-b628-475aa5e30f46"/>
+    <refType typeId="2511ac27-4233-4185-aeaa-57513fcafb8f" valueTypeId="4ac8bbe3-42f7-4d3e-bc85-fde770c98d23"/>
+    <selectionType typeId="f348b631-7e03-44ec-8944-1592b4491a3d" valueTypeId="a24c687e-50ca-438d-8f0a-3cb842ab0a8d"/>
+    <listType typeId="c9706e03-6088-4528-9a30-d20ab3fababf" valueTypeId="9239ea77-192d-4623-9421-1c94e3acff75"/>
+    <managerType typeId="c90ddd5f-ae65-4e5a-9541-6ace8497ab91" valueTypeId="c40be05a-808b-4e39-86bc-f99c93d3e059"/>
+  </producedTypes>
+  <name>ОприходованиеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

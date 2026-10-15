@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f1576bb-1a72-4f3d-815d-54a3017e142f">
+  <producedTypes>
+    <objectType typeId="5626727f-ec2c-46b9-9a04-cf84fff25bb7" valueTypeId="c220d8e5-966e-4e25-bc8b-1f805c64d729"/>
+    <refType typeId="72250d27-4c6e-4145-bd8a-04863dee9324" valueTypeId="abfc8ad7-b9aa-44ae-983f-5a5cb38b4937"/>
+    <selectionType typeId="a8ce3b7f-6f2d-48b0-a2c2-fdcd6627086a" valueTypeId="868e8113-4fcb-4aa3-873a-61e18cd489ac"/>
+    <listType typeId="15349af1-0694-486f-b40b-55679ccd462a" valueTypeId="ff8210a4-31e9-4e04-9d8a-9b2a5e3a2f62"/>
+    <managerType typeId="786b730c-5bf9-465d-bae3-52aa7ba7a715" valueTypeId="03187e34-963c-474b-9af5-73c018a07e7e"/>
+  </producedTypes>
+  <name>ТБ_НастройкиПодключенияКИсточникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения к источникам (ТБ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТБ_НастройкиПодключенияКИсточникам.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройки подключения к источнику</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки подключения к источникам</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТБ_НастройкиПодключенияКИсточникам.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТБ_НастройкиПодключенияКИсточникам.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="0eb0a9d8-5150-4762-b35b-f5a48513918d">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18395424-7421-4ae8-92bd-c848a198b86f">
+    <name>ИмяКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя класса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1f498802-2e81-4a6d-85a1-8aa3446f6177">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="971190ab-d45b-4334-b488-dfc214a60e55">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

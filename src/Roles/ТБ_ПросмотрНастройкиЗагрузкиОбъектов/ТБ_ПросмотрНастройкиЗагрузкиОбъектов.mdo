@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa27ccfe-e3bd-41a4-a390-f1a455888230">
+  <name>ТБ_ПросмотрНастройкиЗагрузкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ТБ) Просмотр справочника &quot;Настройки загрузки объектов&quot;</value>
+  </synonym>
+</mdclass:Role>

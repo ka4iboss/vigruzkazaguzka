@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45b97c8-4e4a-449b-968d-6d13884dd3c9">
+  <name>ТБ_СопоставлениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление объектов</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ТБ_РазделСопоставлениеОбъектов</picture>
+  </picture>
+  <content>Catalog.ТБ_ИсточникиДанных</content>
+  <content>InformationRegister.ТБ_СоответствияОбъектов</content>
+  <content>Catalog.ТБ_ОбработчикиЗаполнения</content>
+  <content>Catalog.ТБ_ПравилаСопоставления</content>
+  <content>DataProcessor.ТБ_СопоставлениеОбъектов</content>
+  <content>Report.ТБ_РеквизитыНоменклатуры</content>
+  <content>Report.ТБ_СравнениеОборотовПоСчетам</content>
+  <content>Catalog.ТБ_НастройкиПодключенияКИсточникам</content>
+  <content>Catalog.ТБ_Объекты</content>
+  <content>DataProcessor.ТБ_ВыгрузкаЗагрузкаДанныхXMLСФильтрами</content>
+  <subsystems>ТБ_ЗагрузкаОбъектов</subsystems>
+</mdclass:Subsystem>

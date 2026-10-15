@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb7269ea-c9da-46c4-a553-bff0ea642465" extendedConfigurationObject="d150f9d5-d1c8-4ce9-be08-88c954e2bd28">
+  <producedTypes>
+    <objectType typeId="b4e485e9-a918-4f98-81b4-eab045e6c15c" valueTypeId="2529d332-0f54-4c70-8284-fee40634ada5"/>
+    <refType typeId="1b9c86c4-9c26-42d7-ad26-c7bfd7c87929" valueTypeId="2064201b-0370-4c79-9733-e987cf7c871f"/>
+    <selectionType typeId="dd577884-9d30-4120-8278-c47c29771cf6" valueTypeId="a65efc37-195a-42bc-a004-ccb364e8625e"/>
+    <listType typeId="01b2de83-90ac-43f9-b51a-4380d0a1487c" valueTypeId="892ba57f-2985-46c9-a0ae-5b06089bb382"/>
+    <managerType typeId="39eda444-f45a-4941-8868-520ce5bcedb2" valueTypeId="cee759cd-707c-4eda-913a-a8c3f3429831"/>
+  </producedTypes>
+  <name>ВводОстатковВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

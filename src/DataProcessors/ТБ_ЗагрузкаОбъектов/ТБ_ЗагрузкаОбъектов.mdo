@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd56420f-4c63-4033-8d3c-fdb514856977">
+  <producedTypes>
+    <objectType typeId="d59e6f48-1171-4559-aec0-74e63194b244" valueTypeId="0c6f999f-17fe-4771-88e9-4c44fbf77bb2"/>
+    <managerType typeId="0c77e290-5761-4e79-870a-7619dbe6b154" valueTypeId="5d37e4e7-1e1f-4cb8-8593-d1e7f8b310f4"/>
+  </producedTypes>
+  <name>ТБ_ЗагрузкаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка объектов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТБ_ЗагрузкаОбъектов.Form.Форма</defaultForm>
+  <forms uuid="5354b9aa-f2d2-434e-99ba-cd61e4a4538a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="30f4dd36-91a5-405e-887b-0d9e63e7a8d5">
+    <name>ЗагрузкаОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка объектов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

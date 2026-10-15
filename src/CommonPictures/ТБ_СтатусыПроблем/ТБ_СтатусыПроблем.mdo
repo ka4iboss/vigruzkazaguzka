@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb5b0896-988b-4c8b-8222-374840e09c4e">
+  <name>ТБ_СтатусыПроблем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проблем</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Issue statuses16</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3c19a416-b5ef-412f-9783-9bd2ae9b124e" extendedConfigurationObject="3796bdf5-5d0b-4232-b22e-6d2cd8beb488">
+  <producedTypes>
+    <objectType typeId="35692f20-ab6e-445b-8d6f-b8c92f7369a7" valueTypeId="fcc907f1-c0cb-4eff-a90c-bfb46a6767d2"/>
+    <refType typeId="02897cb8-de9e-4f39-8a91-d7efb39d376a" valueTypeId="29aef08f-0659-4103-aed2-94834d7c27d0"/>
+    <selectionType typeId="08434122-fda0-496d-9e6c-224a5b2e865c" valueTypeId="1f80ae32-846d-4887-9ba1-280c13c75f8c"/>
+    <listType typeId="cdb9f7de-3b2e-435a-a56a-b2e33601a840" valueTypeId="b6419153-2c03-4a80-829e-5560779712ce"/>
+    <managerType typeId="c926fb66-55a5-4e19-8bb3-5d7bc1c5dcfd" valueTypeId="a4e7de10-7d67-4446-8ceb-55a42a1055e4"/>
+    <extDimensionTypes typeId="cf151f0f-e9de-4bfb-adfe-86894313e89a" valueTypeId="f665b64f-857d-4b22-8b35-a313ea98502c"/>
+    <extDimensionTypesRow typeId="f108a328-41d5-4881-8688-e0af1913e9d7" valueTypeId="75f8e4ba-d949-40a4-b304-e2e6249a067c"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <extDimensionTypes>Checked</extDimensionTypes>
+    <maxExtDimensionCount>Checked</maxExtDimensionCount>
+  </extension>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</extDimensionTypes>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
+</mdclass:ChartOfAccounts>

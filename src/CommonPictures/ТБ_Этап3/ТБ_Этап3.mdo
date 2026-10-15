@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4b8f418-4e28-45e9-9c6a-2137571518d6">
+  <name>ТБ_Этап3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этап 3</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The third step on white background</value>
+  </synonym>
+</mdclass:CommonPicture>

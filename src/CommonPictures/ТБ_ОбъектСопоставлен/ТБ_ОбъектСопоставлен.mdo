@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c79a62db-8670-4853-9f88-3c64b80eed45">
+  <name>ТБ_ОбъектСопоставлен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект сопоставлен</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>External reference to infobase object</value>
+  </synonym>
+</mdclass:CommonPicture>

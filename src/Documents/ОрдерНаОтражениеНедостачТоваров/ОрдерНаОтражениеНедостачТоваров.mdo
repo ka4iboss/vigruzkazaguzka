@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a1f6aa9-5c64-4497-93e2-5e3443195748" extendedConfigurationObject="b8875900-c91c-4f5c-a6db-eb5c60bbf5c1">
+  <producedTypes>
+    <objectType typeId="b534bb6d-7fc5-420d-bdc3-f45956cd20a6" valueTypeId="86ed1860-b8e6-47bb-9c85-7004c853aba6"/>
+    <refType typeId="4e8debd9-9d94-4e51-adb0-6b32caf3c915" valueTypeId="44a95b51-4130-419a-9e23-86b19da00ec6"/>
+    <selectionType typeId="1f783bed-4ab7-4e93-94f3-9a47c1e580f3" valueTypeId="06e378fa-287c-4265-8625-ea35de42da94"/>
+    <listType typeId="f307c6cf-bcec-4a55-89cc-a63749370238" valueTypeId="861487e3-44bb-4f74-ba53-5f45e7b66bda"/>
+    <managerType typeId="feffc773-ab86-4f59-bda7-a8e46569cd71" valueTypeId="c6cd63be-8ea6-4455-a4e5-6d13522677d1"/>
+  </producedTypes>
+  <name>ОрдерНаОтражениеНедостачТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

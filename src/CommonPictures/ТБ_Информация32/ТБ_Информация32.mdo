@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a866cb-ac8a-45d3-985e-3970c49080e6">
+  <name>ТБ_Информация32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Information (32x32)</value>
+  </synonym>
+</mdclass:CommonPicture>

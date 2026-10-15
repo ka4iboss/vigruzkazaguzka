@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b00e28ea-1890-41ee-891b-30d8f3b1ae77">
+  <producedTypes>
+    <refType typeId="01b66d17-3064-4d50-b1d6-293e026559fa" valueTypeId="7f659236-aacc-49be-b9c4-95d6c78d8366"/>
+    <listType typeId="1ddebd45-4c92-4786-94aa-841d2e944e0d" valueTypeId="8e324367-2ec9-41cc-a5f9-ae6095d6fff1"/>
+    <managerType typeId="0902c186-b2f4-451a-bfa2-925c96735849" valueTypeId="dab7ebd2-33c4-4948-9a19-9ef240e71dd4"/>
+  </producedTypes>
+  <name>ТБ_ТипыПравилСопоставления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы правил сопоставления</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14f0b0fa-7327-4447-9276-302860145649">
+    <name>СопоставлениеОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="227e5fed-68e9-4e81-ba5e-3e713fc4b0d6">
+    <name>ЗагрузкаТабличнойЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка ТЧ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

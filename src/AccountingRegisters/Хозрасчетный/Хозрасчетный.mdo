@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e21170a4-a541-4177-9647-fdf2488199cc" extendedConfigurationObject="7b248429-2107-4371-b371-a099028cd179">
+  <producedTypes>
+    <selectionType typeId="a9bfe437-d9fd-4c77-b728-880964dfcaf6" valueTypeId="6cef16e5-e909-447d-9d55-46d723dafd0c"/>
+    <listType typeId="ce35b64e-bb41-4472-808a-1d0ff20b3b97" valueTypeId="e8dc6a3c-a325-4548-b7b5-a87b7653f448"/>
+    <managerType typeId="8afac8f3-96ec-4589-b650-e0391dc65fa9" valueTypeId="ffb35278-a17f-49d2-a71e-32fc2f7adb00"/>
+    <recordSetType typeId="804c0f41-ace0-4bbb-bdd3-0245db8b1dbb" valueTypeId="cf03e9bf-d9b2-4d8a-881c-367fdaf1107d"/>
+    <recordKeyType typeId="17026444-c9b3-48fc-854e-150c5af4457f" valueTypeId="e51fb6ca-4709-4821-8d3e-78cd9441c0fe"/>
+    <recordType typeId="d0c7f8db-0101-40e3-8143-7fc4cf2eee5f" valueTypeId="f70e6de4-55a6-4ab2-bd43-27c41aaa98d7"/>
+    <extDimensionsType typeId="669e5412-611b-4046-9131-e9467afe8835" valueTypeId="3ed50cf2-4cda-44f9-a095-4eb8786efd43"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccountingRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <chartOfAccounts>Checked</chartOfAccounts>
+    <correspondence>Checked</correspondence>
+  </extension>
+  <chartOfAccounts>ChartOfAccounts.Хозрасчетный</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dimensions uuid="4214a237-a0f2-4444-b64f-26449a31c08b" extendedConfigurationObject="4d42e16e-f450-41a3-a9c4-4f0d0844392a">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterDimensionExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="dea92919-a75a-475f-952c-0d9006aa3782" extendedConfigurationObject="3656a8da-a29d-4315-b78f-48d379d4b712">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterResourceExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="ca6fbac4-70cc-457a-ba10-7d1d48be18bb" extendedConfigurationObject="4b967ef5-26ee-4c92-92c6-7f93336687fd">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:AccountingRegisterResourceExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+      <balance>Checked</balance>
+    </extension>
+  </resources>
+</mdclass:AccountingRegister>

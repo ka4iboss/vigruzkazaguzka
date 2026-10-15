@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80b3df9d-050a-463d-aaa0-624bde55b425" extendedConfigurationObject="7a37f9be-6092-4e0d-aab0-c7994229d110">
+  <producedTypes>
+    <refType typeId="4760b127-dfe9-4a80-acf9-7afebabd47d4" valueTypeId="f99b970e-d4c9-4928-9057-eccac909751a"/>
+    <listType typeId="36bf1e64-a515-4faa-b81c-799d53727f67" valueTypeId="fa27fc4d-de55-4db7-a3a8-28ccba6b2070"/>
+    <managerType typeId="fb738138-92b4-4d2e-bde5-5992c4056dd8" valueTypeId="779ddb09-92c1-4531-95c1-b60e17e7172f"/>
+  </producedTypes>
+  <name>НастройкиАдресногоХранения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b8fc93e9-c601-4c85-97bb-61116b6fc14c" extendedConfigurationObject="547ae60a-335d-4529-8a04-c07afb777818">
+    <name>ОпределяетсяНастройкамиПомещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="9fb949c2-ce19-465a-b96d-c087f9950714" extendedConfigurationObject="ee67d3ea-8ef0-4319-ad37-83a152d02237">
+    <name>ЯчейкиОстатки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

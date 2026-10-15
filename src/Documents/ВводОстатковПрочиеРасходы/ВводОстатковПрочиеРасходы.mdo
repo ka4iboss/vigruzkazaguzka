@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a62ec4db-c04f-4ae0-a82e-15062e094431" extendedConfigurationObject="948a625e-0957-41f4-8bca-df2eb5eb90c6">
+  <producedTypes>
+    <objectType typeId="38c01adc-8cea-4875-b4dc-f2848a70f42f" valueTypeId="27ec6d57-19eb-40a1-97da-368ef1c8b8ac"/>
+    <refType typeId="22d476ed-3e66-4e77-a04c-f4771b558c58" valueTypeId="640cce41-9788-47fc-a3c9-b0e8a2f57abe"/>
+    <selectionType typeId="cafeb83d-c9e5-439f-acaf-03885eaf9aba" valueTypeId="6ebc4c8f-a1ee-49de-9f76-386737ee534f"/>
+    <listType typeId="f5d5b1cc-347b-4a60-bdd6-2e51dd619ae6" valueTypeId="95da998e-3677-4d53-bf9a-5ea1d470f740"/>
+    <managerType typeId="aa8b60d2-cb4a-48b9-b052-c6e5679c51b1" valueTypeId="76171421-e4f4-4324-b1b1-732eb2065253"/>
+  </producedTypes>
+  <name>ВводОстатковПрочиеРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

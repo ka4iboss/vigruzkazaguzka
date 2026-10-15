@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dcaed741-2f9e-40dd-8823-b33b7bd68ae8" extendedConfigurationObject="d2275b5d-ab87-483e-b252-2de5d94fc643">
+  <producedTypes>
+    <objectType typeId="4df18c82-9c31-43a2-9a7d-42908844e0f4" valueTypeId="33441bea-c144-4a80-b539-60b569978f9e"/>
+    <refType typeId="354a3a3f-9d1b-4e59-b610-f0d550b1d728" valueTypeId="f01faaed-b5cb-4d8b-8f9c-a437951cb4d9"/>
+    <selectionType typeId="3199618d-de19-4c68-a840-b8575d71c8ea" valueTypeId="7eabacd1-3bea-4b8f-a9b9-f6b89e667d7b"/>
+    <listType typeId="7172943d-7eeb-45b4-8514-6543e7f1feef" valueTypeId="d45ddf91-0672-4175-b18b-8ba84c2cee1c"/>
+    <managerType typeId="54c90365-3500-4de8-9727-1bba9231175c" valueTypeId="e34df7e2-0ce8-4cbb-9bb7-9bff7374bd7d"/>
+  </producedTypes>
+  <name>АктВыполненныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

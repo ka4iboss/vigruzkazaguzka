@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d3e411c4-8fe5-4a02-9c2e-46cda2cca220" extendedConfigurationObject="3aa37dd0-9f3a-43a2-8cb9-e23caed2a1f8">
+  <producedTypes>
+    <objectType typeId="b63eac84-bc0b-48e6-bdd0-a77190dc30ee" valueTypeId="28f7eabf-4f36-401f-806a-6b74531be9e9"/>
+    <refType typeId="71c05a7a-f7b9-41a6-91e4-75a16657dbe6" valueTypeId="d31635c4-4b32-449b-9953-089c21655178"/>
+    <selectionType typeId="73edfcc9-93a9-4fd4-a381-2cc2b2cf6363" valueTypeId="746c33ed-a64c-4815-a6a2-8ef73a04b590"/>
+    <listType typeId="407d5262-a849-42c0-8241-58ffa3b018df" valueTypeId="f33706df-f504-4ee2-8e7c-3bb9827ac57d"/>
+    <managerType typeId="2523d029-562d-4ba0-ae2e-08bb0ea9ee3e" valueTypeId="51f01060-5791-492f-8842-62a2edeca8dd"/>
+  </producedTypes>
+  <name>ОрдерНаОтражениеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

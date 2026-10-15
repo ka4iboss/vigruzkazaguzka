@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a0606fc-22cf-40b8-af55-52da794aaadd" extendedConfigurationObject="6fc9de54-3141-4852-9cb8-c1be947c406a">
+  <producedTypes>
+    <objectType typeId="ed633016-18fb-4379-bb22-a64e601887d0" valueTypeId="750794af-5003-4472-8088-18af7a285592"/>
+    <refType typeId="c839b57c-ba60-4a90-9ea6-7f407b53ca99" valueTypeId="adf9cca5-6de7-4d19-b887-e7db0f5de70f"/>
+    <selectionType typeId="b4d3c7b8-1d0d-4b94-a624-647ec3f5c81b" valueTypeId="b4ac7b98-e044-4c55-a7e2-3a040b2dd3ef"/>
+    <listType typeId="8972ccb7-c841-43f8-bb07-f13a17172c6d" valueTypeId="41f3b349-a74e-48ce-bd14-896428e8157a"/>
+    <managerType typeId="f01cbc88-7522-45df-8332-c065de4622c0" valueTypeId="9fa5c428-4d60-42ec-910b-4382819d809a"/>
+  </producedTypes>
+  <name>РаспределениеРасходовБудущихПериодов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

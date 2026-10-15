@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93175393-856b-426e-ba6d-7bf978b51b31">
+  <name>ТБ_СопоставлениеОбъектовСлужебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление объектов служебная</value>
+  </synonym>
+  <content>CommonPicture.ТБ_РазделСопоставлениеОбъектов</content>
+  <content>Catalog.ТБ_ИсточникиДанных</content>
+  <content>InformationRegister.ТБ_СоответствияОбъектов</content>
+  <content>Catalog.ТБ_ОбработчикиЗаполнения</content>
+  <content>Enum.ТБ_ВариантыЗаполнения</content>
+  <content>CommonPicture.ТБ_ЗагрузкаИзВнешнегоИсточника</content>
+  <content>CommonPicture.ТБ_Информация32</content>
+  <content>CommonPicture.ТБ_ПоказатьТолькоВыбранные</content>
+  <content>Catalog.ТБ_ПравилаСопоставления</content>
+  <content>StyleItem.ТБ_ЦветТекстаНеНайден</content>
+  <content>DataProcessor.ТБ_СопоставлениеОбъектов</content>
+  <content>CommonPicture.ТБ_Заполнить</content>
+  <content>CommonPicture.ТБ_КоллекцияПиктограммТипЗначения</content>
+  <content>CommonPicture.ТБ_ОбъектСопоставлен</content>
+  <content>Enum.ТБ_ТипыПравилСопоставления</content>
+  <content>Report.ТБ_РеквизитыНоменклатуры</content>
+  <content>Catalog.ТБ_НастройкиЗагрузкиОбъектов</content>
+  <content>InformationRegister.ТБ_ЗагруженныеДанныеИсточника</content>
+  <content>DataProcessor.ТБ_АнализЗагруженныхДанных</content>
+  <content>Catalog.ТБ_СценарииЗагрузкиОбъектов</content>
+  <content>InformationRegister.ТБ_СостоянияЗагрузкиОбъектов</content>
+  <content>Catalog.ТБ_НастройкиПодключенияКИсточникам</content>
+</mdclass:Subsystem>

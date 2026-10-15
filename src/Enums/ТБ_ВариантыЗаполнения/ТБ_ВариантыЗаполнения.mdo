@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1effe250-8c37-4fcb-a400-ffccc221fb30">
+  <producedTypes>
+    <refType typeId="0cc926a4-a841-4e44-a333-0e146f182854" valueTypeId="98605725-6141-463f-bf92-04f6117cac4b"/>
+    <listType typeId="186df122-f68c-48d3-9b8a-1563f718cbba" valueTypeId="746825d3-407e-412e-b869-5208e63bd164"/>
+    <managerType typeId="b9bb5d48-3c2b-482b-b52f-9b8505553b55" valueTypeId="e60bc3b8-ce5e-4af2-aa9f-77c355458b83"/>
+  </producedTypes>
+  <name>ТБ_ВариантыЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты заполнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы реквизитов</value>
+  </listPresentation>
+  <enumValues uuid="944da4e8-fcaf-4af6-bc8e-154d30687258">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a0faddd-6037-4732-89aa-61d543eacde9">
+    <name>ЗначениеИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение источника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d3ed96f-56e2-4d72-a456-3a13c0ee8c60">
+    <name>ПоискПоКоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по коду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed845518-bf27-4a03-b238-2292363cbdd5">
+    <name>ПоискПоНаименованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по наименованию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8f9b658-db94-463f-a0e4-20ba927367e1">
+    <name>ПоискПоСоответствию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по соответствию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a003d710-f2e7-4821-a242-010cd10f5362">
+    <name>Обработчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

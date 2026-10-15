@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96ca82ae-9512-430c-8d88-f2dbfa2b4acf">
+  <producedTypes>
+    <objectType typeId="9b43a414-91a3-452e-8100-9b46d9ebbcc0" valueTypeId="224dc71b-fdad-4907-8177-9396242784ff"/>
+    <refType typeId="c58d4171-8c9c-4a8c-ad22-bb56b97c0f0a" valueTypeId="91c65c9d-e003-42ca-9256-b54194026740"/>
+    <selectionType typeId="898fd685-fd91-4358-ae46-c55c82a294f6" valueTypeId="0a54ab68-3031-4c78-8ae6-a3f571cfd0f3"/>
+    <listType typeId="23276929-c84b-4f68-9c5a-2b68fbe33f7b" valueTypeId="32510345-5409-4f81-b013-d7d9b107439e"/>
+    <managerType typeId="ec92fc89-d517-4124-930c-e8d42e65c4ef" valueTypeId="ff782788-c2b4-4989-926f-94608c768f50"/>
+  </producedTypes>
+  <name>ТБ_СценарииЗагрузкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии загрузки объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТБ_СценарииЗагрузкиОбъектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ТБ_СценарииЗагрузкиОбъектов.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сценарий загрузки объектов</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сценарии загрузки объектов</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТБ_СценарииЗагрузкиОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТБ_СценарииЗагрузкиОбъектов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ТБ_СценарииЗагрузкиОбъектов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТБ_СценарииЗагрузкиОбъектов.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ТБ_СценарииЗагрузкиОбъектов.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="552326c5-1c9b-4a90-a16d-f5f6784834a6">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТБ_СтатусыСценариевЗагрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТБ_СтатусыСценариевЗагрузки.EnumValue.ВРазработке</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36808ea0-e920-4d99-bb9c-70ea2d35fff4">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="225aaf4f-d0ed-4430-ba38-9b443004dd88">
+    <producedTypes>
+      <objectType typeId="d4b067e4-9e82-4014-a886-a527977d5c86" valueTypeId="4461cd9a-5d6b-4ba7-8357-815fda742abb"/>
+      <rowType typeId="0d7119bd-73bc-4e88-b0fa-9b9cc5762ca5" valueTypeId="2080a6f6-3b01-4339-8aff-c5f6440c56cc"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2b2b14be-db13-4e26-bdc0-163f11d0493d">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ec1e0e3-0327-49dc-b7c7-da3f3a67f48b">
+      <name>НастройкаЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Настройка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТБ_НастройкиЗагрузкиОбъектов</types>
+        <types>CatalogRef.ТБ_ПравилаСопоставления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипПравила</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТБ_ТипыПравилСопоставления.EnumValue.СопоставлениеОбъектов</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd994972-ea6e-46f4-89b1-6732fa56b8b8">
+      <name>ВариантЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант загрузки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТБ_ВариантыЗагрузкиОбъектов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e67e38af-47a3-4f8b-8889-14932ca4fc34">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e2b0a568-9fb4-4230-a667-d99665b98d95">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ddfef6ab-4944-43e2-9a21-849e97bacab1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7432b532-60e0-44c6-b1df-c7fa7f07e00b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="979f2fc5-709d-4e0e-b7c7-538373bc7239">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="592b77f9-3510-4d79-9427-0acf5409cce4">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка объектов по сценарию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="25184413-b28e-4687-b44f-2c9b9d0fe847">
+    <name>ВыполнитьСейчас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить сейчас</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Run now</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТБ_СценарииЗагрузкиОбъектов</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CreateInitialImage</picture>
+    </picture>
+  </commands>
+  <commands uuid="cec3b97b-bd46-4fdb-ace1-efa877a19171">
+    <name>СобытияЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>События загрузки...</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report distribution events...</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТБ_СценарииЗагрузкиОбъектов</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Перейти в журнал регистрации с отбором по сценарию</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Go to the event log and set filter by the distribution.</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.EventLog</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

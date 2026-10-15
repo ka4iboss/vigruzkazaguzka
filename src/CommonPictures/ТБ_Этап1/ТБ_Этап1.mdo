@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5eb53b6-5058-4fe4-9f6a-671ce96415cd">
+  <name>ТБ_Этап1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этап 1</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Stage 1 on white background</value>
+  </synonym>
+</mdclass:CommonPicture>

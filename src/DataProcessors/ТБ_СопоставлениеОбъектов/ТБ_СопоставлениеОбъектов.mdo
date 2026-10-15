@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa837a4d-5c5b-48b9-a98e-bc14e3b34e35">
+  <producedTypes>
+    <objectType typeId="e21dcaeb-fb2f-4894-84c5-00edee06ea07" valueTypeId="51ebf168-244e-4f07-b1eb-6381bbdf5bf4"/>
+    <managerType typeId="cbb3728b-d948-4b6c-a9dc-09728d791923" valueTypeId="beea11c6-c9a8-446c-9d51-1f9373ec3f85"/>
+  </producedTypes>
+  <name>ТБ_СопоставлениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление объектов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТБ_СопоставлениеОбъектов.Form.Форма</defaultForm>
+  <attributes uuid="231f7fdd-2f24-4cec-a272-1b0de78374b6">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТБ_ИсточникиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="074de6a3-e5b6-4cdd-92d2-13775268316c">
+    <name>ТипПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип правила</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТБ_ТипыПравилСопоставления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4706a9a9-da72-4388-958f-ee5a2fdc9227">
+    <name>ПравилоСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТБ_ПравилаСопоставления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="f944b76e-bac8-44f0-ac97-1b22f0d2af2d">
+    <producedTypes>
+      <objectType typeId="42343f1e-2d76-4058-b00a-92a7fb3801e9" valueTypeId="4cc11033-b72d-413d-a59b-c97d586961fd"/>
+      <rowType typeId="40bbc4df-fc94-45a1-b065-a429ce2140e9" valueTypeId="12d2a1cb-5a36-4282-9f44-5654e1ade422"/>
+    </producedTypes>
+    <name>ИзмененныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененные объекты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9f40b2d4-a025-4701-9af7-fb920fb9eab2">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4409bfdc-8f83-4a5f-b75c-636d5708a67b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d66a8be-d351-49f2-8d16-25ebc3a05254">
+    <name>ЗагрузкаИзТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из табличного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c058c82d-4c2b-4e2f-9a92-9828c0da4243">
+    <name>МакетЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет загрузки данных</value>
+    </synonym>
+  </templates>
+  <commands uuid="4aa8a476-e194-411d-bc66-155a0a499095">
+    <name>СопоставлениеОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление объектов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6502c605-96cf-4c40-a352-b3e27988427a">
+  <producedTypes>
+    <objectType typeId="f1ab0aa8-38fd-4b80-a23e-e8326f5b12cc" valueTypeId="8dc603da-87ec-451f-bce5-bd1ae7c4c4a4"/>
+    <managerType typeId="e3354903-ebef-4e21-9b10-223b960321ed" valueTypeId="ba1e2133-f7cf-49a3-a01f-1e945a91fa7b"/>
+  </producedTypes>
+  <name>ТБ_АнализЗагруженныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ загруженных данных</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТБ_АнализЗагруженныхДанных.Form.Форма</defaultForm>
+  <forms uuid="7ffdbb92-2e06-42e4-a509-c60ec3b7419e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0981ff49-6a48-4c74-97b7-f80b5dfa7c17">
+    <name>АнализЗагруженныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ загруженных данных</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

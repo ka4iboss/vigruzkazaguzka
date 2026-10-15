@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e1ea33d-2953-43b9-b9c8-345b297e50e5" extendedConfigurationObject="875880ed-82fe-442b-a3d0-193a359c10f3">
+  <producedTypes>
+    <objectType typeId="898db8ff-9900-465e-9c07-ad95b6129b85" valueTypeId="6c878bbe-2260-4297-b26b-88304142818d"/>
+    <refType typeId="b0c98787-1301-45ee-8707-f45f73d96b39" valueTypeId="28c1c219-1c54-4b1b-911f-186b4f30fe80"/>
+    <selectionType typeId="4ce8bfb4-1e01-4c61-97cc-231f6ae1d0f7" valueTypeId="70e82f1e-9eeb-42ff-9898-1c3b42a1f46d"/>
+    <listType typeId="c2c5dc75-a66e-405c-804e-e915a2130bb3" valueTypeId="bc9d27f6-28e3-4bd5-ab84-9e5664c03c70"/>
+    <managerType typeId="43120d44-35ac-4fde-8fdd-f80b42f680f0" valueTypeId="4078d371-4d22-4438-be48-fe2565af1538"/>
+  </producedTypes>
+  <name>ПередачаСырьяПереработчику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

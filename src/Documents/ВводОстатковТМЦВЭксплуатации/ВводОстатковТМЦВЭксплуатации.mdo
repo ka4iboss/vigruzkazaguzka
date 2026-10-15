@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d5786dda-20bb-4164-9a2f-7f8146feb41c" extendedConfigurationObject="ade04e9d-d183-4a89-ae74-1c9c27212f19">
+  <producedTypes>
+    <objectType typeId="7e0aa608-c918-4e75-b481-3daf07e75ade" valueTypeId="14f4662a-a071-485d-96a4-09837ae19d25"/>
+    <refType typeId="e62976a9-f06a-4d9c-8c51-fc957cf4d2ba" valueTypeId="b1f33bbb-54a3-4f7d-aaa7-1258aa2f1955"/>
+    <selectionType typeId="1166c236-b821-491f-9111-4cadfd682c9c" valueTypeId="fa4c93e1-0176-413d-8061-ec3e92c8af9a"/>
+    <listType typeId="5fa851e9-9f3e-48a9-a95a-4d77c205d316" valueTypeId="ad045e68-7345-4c55-b4b6-244c4b2ded45"/>
+    <managerType typeId="f63b74be-eaab-4f59-bddc-32ab421004fd" valueTypeId="30a53e7f-d6db-41c0-a926-53adc308aa6f"/>
+  </producedTypes>
+  <name>ВводОстатковТМЦВЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

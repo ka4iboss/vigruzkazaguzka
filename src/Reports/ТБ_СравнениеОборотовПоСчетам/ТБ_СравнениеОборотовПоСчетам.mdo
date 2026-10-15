@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c036a58-f3f5-4afd-be7d-d8d292606933">
+  <producedTypes>
+    <objectType typeId="7a2b5c1b-ca86-42f7-875c-621e84a62964" valueTypeId="b092ce69-5815-4efb-8273-a83a577ea7d1"/>
+    <managerType typeId="3ecd9354-6546-481b-8d9c-203808fc72a9" valueTypeId="0e7765a5-1355-4997-8726-4a5d188b353d"/>
+  </producedTypes>
+  <name>ТБ_СравнениеОборотовПоСчетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение оборотов по счетам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТБ_СравнениеОборотовПоСчетам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="92c57169-ea04-4b4f-b72a-aee5e9f3085a">
+    <name>УдалитьСтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="61c6fd96-0e50-4345-ad15-1106bb3d15ed">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

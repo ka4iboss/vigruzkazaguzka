@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa52517e-1b16-4b7d-bd9c-42ad61a98b52" extendedConfigurationObject="dc913a2d-3ee6-4d86-8567-3ea3e8fee2b4">
+  <producedTypes>
+    <objectType typeId="a7af0c71-39a5-4910-8b58-4b5eefa1c1cb" valueTypeId="759cb7c6-9899-4278-b531-9a1e923fd209"/>
+    <refType typeId="094bb839-19c0-4ff5-bf7a-7a3ac540d538" valueTypeId="94da90ae-a32a-4978-bec4-ccb17e7b0f2b"/>
+    <selectionType typeId="19d8aad5-0074-40df-966f-e52bda8141fc" valueTypeId="b0665b37-1d78-4722-9367-1184053bd153"/>
+    <listType typeId="29843f96-6292-4dea-b989-8237b6cc8405" valueTypeId="f8eeb39b-1b48-4d60-8b03-24e2838b7a04"/>
+    <managerType typeId="2260c4ce-bde9-4932-9467-520d874e0570" valueTypeId="df77cef1-bbbc-4dde-a39c-f18943f7e147"/>
+  </producedTypes>
+  <name>ВводОстатковВзаиморасчетовПоАренде</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d18a4c09-a74e-4447-b823-4470bc1ba362" extendedConfigurationObject="dedaaa62-de9a-4eda-be5e-0973400eb1b6">
+  <producedTypes>
+    <objectType typeId="d6aa40ce-3d12-46a9-8bd4-e0257fabf5d6" valueTypeId="d0518279-709f-46fc-ac83-b887c235bc41"/>
+    <refType typeId="f3c405ef-328f-43d2-ab85-0e3e97f7db3c" valueTypeId="ae3b1aa3-54c4-4405-8b18-4b6b796e7972"/>
+    <selectionType typeId="3b49748e-aac2-46c0-9533-cb5a92bb725d" valueTypeId="0bf44ccd-ef38-498a-944f-585eccd9081e"/>
+    <listType typeId="3bd34af1-7480-4bab-896e-dca148654157" valueTypeId="247ef2f7-ef2a-42e4-a075-e330f7ed6098"/>
+    <managerType typeId="e7ee5ae4-a8f3-4099-b2b9-812a53d90ae3" valueTypeId="4c79678c-ca89-4570-b543-bc383ef57f4e"/>
+  </producedTypes>
+  <name>НачислениеСписаниеРезервовПоСомнительнымДолгам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

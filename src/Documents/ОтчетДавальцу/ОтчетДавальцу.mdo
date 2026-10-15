@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1ac04ce-78fa-4cc4-8421-bbd1aaca6e0f" extendedConfigurationObject="48df70a1-a116-4d62-8b47-ccf965f29100">
+  <producedTypes>
+    <objectType typeId="bef82d96-1062-4609-aac1-11f8c3a2a105" valueTypeId="29fe0f16-94a9-4e2d-beb9-a4353474cbfc"/>
+    <refType typeId="094515e5-52dd-4d6c-b08d-359c17354f04" valueTypeId="8fc736ba-cae1-4252-a928-35dd83640142"/>
+    <selectionType typeId="93ad0dfb-fcb7-41ca-aa30-c7cba6eecb43" valueTypeId="b9e8521c-aaf8-4506-8f98-9ef3bdbdd2fb"/>
+    <listType typeId="295be3f8-0723-40a9-8c35-592455b08101" valueTypeId="d9948494-a1dd-42d2-87e8-90e68d7110e1"/>
+    <managerType typeId="e8521800-0e39-494b-9617-efe302ccd8f9" valueTypeId="a171afb6-7390-4809-aae7-69a35d4a4012"/>
+  </producedTypes>
+  <name>ОтчетДавальцу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

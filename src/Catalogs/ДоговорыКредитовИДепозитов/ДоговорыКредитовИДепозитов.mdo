@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74765324-70da-4da7-980a-e8aa5e5db7de" extendedConfigurationObject="af1d182a-c876-49b9-8194-93c66df4d32b">
+  <producedTypes>
+    <objectType typeId="fab26ec3-73eb-40b4-829b-479cc63e5b32" valueTypeId="b14a7ec8-473b-46a9-a340-8cf0cce472d6"/>
+    <refType typeId="5e70f067-61fa-4388-9ceb-dddf0e5c137f" valueTypeId="81ef0cf4-21a7-48b6-bb40-8fd471f48dd3"/>
+    <selectionType typeId="55e728a7-f232-4afa-9a94-3eb698fc79bc" valueTypeId="3ae59e0e-67be-4466-b8f1-27b1e0784493"/>
+    <listType typeId="860fa406-1738-4b2d-9c5d-46d60e453b5d" valueTypeId="bfc4fda9-31a9-4eae-a0e7-a840f79aec60"/>
+    <managerType typeId="e7ecffdd-2685-4faf-beb3-6fca6a2f622d" valueTypeId="57d2116c-ee9f-47c2-8fb3-be701c539e1e"/>
+  </producedTypes>
+  <name>ДоговорыКредитовИДепозитов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49b9e60f-fbd9-4f6b-8b26-57f1f296e4eb" extendedConfigurationObject="852cd565-1094-4515-9352-2ed625a00830">
+  <producedTypes>
+    <objectType typeId="26b8f4d5-d228-40fe-bc63-e14c118821f0" valueTypeId="5549d3d7-7799-4c4a-b7d4-f24d79d049df"/>
+    <refType typeId="b843a1c1-b3c0-4c0e-be42-be57b4a5ab9d" valueTypeId="98dd2f09-3c24-4297-92ef-046132dfde35"/>
+    <selectionType typeId="496e961e-5fc3-4c7f-b6cd-c315d4153c04" valueTypeId="5480398c-6c9d-4680-9653-fe7772266d9c"/>
+    <listType typeId="4c1127d9-2492-43f3-bf1d-5d893f98b683" valueTypeId="4120ed94-8fb6-472c-a1d6-b57839ae501a"/>
+    <managerType typeId="6f2ba612-bf20-4920-ab97-05e376ce4bab" valueTypeId="09dff332-0c8d-49bd-bb2b-b31f6c29f362"/>
+  </producedTypes>
+  <name>ПересчетТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

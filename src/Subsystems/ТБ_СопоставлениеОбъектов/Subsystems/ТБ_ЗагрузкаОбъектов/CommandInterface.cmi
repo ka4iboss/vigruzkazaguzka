@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ТБ_ЗагрузкаОбъектов.Command.ЗагрузкаОбъектов</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ТБ_ЗагрузкаОбъектов.Command.ЗагрузкаОбъектов</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.ТБ_ЗагрузкаОбъектов.Command.ЗагрузкаОбъектов</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8df1f3e5-6d8c-4dd6-aac3-09283283e6ad" extendedConfigurationObject="5cad0cb2-975d-4354-9d32-d1fc8c987094">
+  <producedTypes>
+    <objectType typeId="e22c5141-6f84-49fc-af94-b4328770a1e2" valueTypeId="d8c25548-7b7a-440e-beb2-d55f9926dcce"/>
+    <refType typeId="0f6a0797-f601-4fb9-8971-3ea651a92993" valueTypeId="93137d7e-1957-4650-922a-f33d850b4127"/>
+    <selectionType typeId="af0a3d36-a694-44ba-889d-50bba2de827f" valueTypeId="32314e11-580d-4b87-bccd-afb215c49945"/>
+    <listType typeId="a0400f09-d7c2-487a-9ebe-0161c77e8e70" valueTypeId="ed18c79d-318f-4b80-b267-db9998dd1667"/>
+    <managerType typeId="0e76da09-2ea6-489f-bf41-d7cb5e1eed7d" valueTypeId="a85d29b1-307c-45c6-8086-47c361d6df53"/>
+  </producedTypes>
+  <name>СчетФактураПолученный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

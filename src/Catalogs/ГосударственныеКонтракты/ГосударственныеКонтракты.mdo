@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef2df734-05ad-4bb3-abb3-e90a9d18427a" extendedConfigurationObject="150b7e79-b2ba-4802-8c98-0fb39df77a4a">
+  <producedTypes>
+    <objectType typeId="bcffc3fe-4aea-4da2-86fd-456d24f381d8" valueTypeId="bc9cb361-136f-420a-b7f2-c40f9a37eaee"/>
+    <refType typeId="0b2eacee-6751-4bc7-8c15-00c65583907f" valueTypeId="ba99a822-b196-46d9-b279-0fb8ca2b6998"/>
+    <selectionType typeId="eb0035a0-5ee3-4f43-adfe-6a64efe06e1b" valueTypeId="3661e6a1-5461-4ba2-a0b6-284fff37ab5b"/>
+    <listType typeId="afde49d4-b418-41bd-a169-ee7bd4686d88" valueTypeId="2da7d743-a595-49ff-82f0-b0c89dc6e93e"/>
+    <managerType typeId="8b26a6ba-e585-4624-a44c-aa80a4efb529" valueTypeId="a1bf251d-0116-4c4b-a25c-01bf5f53e901"/>
+  </producedTypes>
+  <name>ГосударственныеКонтракты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

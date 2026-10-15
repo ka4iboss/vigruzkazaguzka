@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="caa692ad-72e1-4260-9c80-e4c42f2c6656" extendedConfigurationObject="951a5403-e1a4-4484-8fda-c18df8f291d3">
+  <producedTypes>
+    <refType typeId="130f5082-57c0-434a-95ca-117153dd785b" valueTypeId="0b55c7d6-7377-4d39-9234-74159e212d72"/>
+    <listType typeId="544da8ea-0f62-4031-ab76-661cf9f9c5c8" valueTypeId="89195bc4-d415-4374-8ed0-99759f3ba05d"/>
+    <managerType typeId="3c61fd8b-6827-4258-96a1-839efbad164d" valueTypeId="f64afcff-399a-4640-9c86-1a7e409fc598"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="163bc037-97e7-4432-beb4-611fa92090b8" extendedConfigurationObject="898c017b-174f-4670-8146-5c6e75af51c1">
+    <name>МногооборотнаяТара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

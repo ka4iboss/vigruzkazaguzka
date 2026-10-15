@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5419a40e-f05d-4cf2-9c36-e240d0f42ed2" extendedConfigurationObject="e16b931a-86b3-413f-a330-7b6f835e2da7">
+  <producedTypes>
+    <objectType typeId="142daee9-7de6-4a2a-b3f5-dac57284f072" valueTypeId="e839725f-de45-45be-934b-456bf860883e"/>
+    <refType typeId="71abe1fc-52a2-44b1-81c9-15f6f8f4f086" valueTypeId="379f5466-adf1-4817-a254-72ae5a514aab"/>
+    <selectionType typeId="ba200448-6c00-44d4-a93c-e7d41b80f0fb" valueTypeId="c9fbe1d0-4146-40f3-8523-c70b83cc7269"/>
+    <listType typeId="0bfe315e-9853-4e21-ada2-57b6ba5b3c1f" valueTypeId="da5609f4-7f82-44df-8315-8c988a827b9d"/>
+    <managerType typeId="4932d8f2-7972-497d-965d-b733d53ee61e" valueTypeId="41b74f0d-8803-40f7-b496-bfeecbe7475d"/>
+  </producedTypes>
+  <name>ПриходныйКассовыйОрдер</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

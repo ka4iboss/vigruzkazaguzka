@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b6a337f-3d72-4f93-a68e-ec464a40db2e">
+  <name>ТБ_Заполнить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить</value>
+  </synonym>
+</mdclass:CommonPicture>
