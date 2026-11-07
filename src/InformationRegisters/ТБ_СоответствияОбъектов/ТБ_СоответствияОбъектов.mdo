@@ -273,7 +273,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>250</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -283,7 +283,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="a8a64931-bba5-435e-a5a0-f159f2074487">
@@ -295,14 +295,14 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>430</length>
+        <length>400</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="abf42d11-0fb7-4bad-89e0-f7cbc44107dd">

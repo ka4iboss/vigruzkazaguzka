@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c31ddfa-c095-43b5-b523-0ef483134349" extendedConfigurationObject="8a5d49e4-0914-45db-aad1-7611d9a0154c">
+  <producedTypes>
+    <objectType typeId="14332361-3b56-43ce-b6f2-8ba09b7fa2dd" valueTypeId="b13397e7-7287-480d-81b9-c533ef5aedee"/>
+    <managerType typeId="002aac74-0ee1-4329-80ab-15bdb98f4831" valueTypeId="bb59af68-847a-4adc-be36-f1cee83505f3"/>
+  </producedTypes>
+  <name>ФормированиеЗаказовПоставщикуПоПлану</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

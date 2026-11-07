@@ -67,7 +67,9 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
     </type>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>

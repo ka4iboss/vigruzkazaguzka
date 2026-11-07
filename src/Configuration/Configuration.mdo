@@ -26,7 +26,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="4776a4af-9034-4f48-823c-fa56035b7e29" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
@@ -229,6 +229,7 @@
   <dataProcessors>DataProcessor.ЖурналДокументовОтчетыКомитентам</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналДокументовПродажи</dataProcessors>
   <dataProcessors>DataProcessor.ТБ_ВыгрузкаЗагрузкаДанныхXMLСФильтрами</dataProcessors>
+  <dataProcessors>DataProcessor.ФормированиеЗаказовПоставщикуПоПлану</dataProcessors>
   <informationRegisters>InformationRegister.ТБ_ДоступностьНастроекЗагрузкиОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.ТБ_ЗагруженныеДанныеИсточника</informationRegisters>
   <informationRegisters>InformationRegister.ТБ_СоответствияОбъектов</informationRegisters>

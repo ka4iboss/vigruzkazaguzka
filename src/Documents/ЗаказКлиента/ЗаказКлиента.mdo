@@ -12,8 +12,8 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <forms uuid="3be77d60-ab58-466b-ab38-f737bc08fd6a" extendedConfigurationObject="279cd8f6-0359-4f1d-a2ff-4df95e464cc4">
-    <name>ФормаСпискаДокументов</name>
+  <forms uuid="38bb9edf-f762-4048-b325-38dd8873d2c0" extendedConfigurationObject="279cd8f6-0359-4f1d-a2ff-4df95e464cc4">
+    <name>ФормаСписка</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
